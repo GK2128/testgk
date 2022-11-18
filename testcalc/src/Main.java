@@ -142,6 +142,9 @@ class Main {
             case "/":
                 x = y/z;
                 break;
+            default:
+                System.out.println("throws Exception // ввtдите корректное выражение");
+                System.exit(1);
         }
         if (g == false && x<1) {
             System.out.println("throws Exception //т.к. в римской системе нет отрицательных чисел и числа ноль");
