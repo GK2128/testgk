@@ -143,7 +143,7 @@ class Main {
                 x = y/z;
                 break;
             default:
-                System.out.println("throws Exception // ввtдите корректное выражение");
+                System.out.println("throws Exception // введите корректное выражение");
                 System.exit(1);
         }
         if (g == false && x<1) {
